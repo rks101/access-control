@@ -11,7 +11,8 @@ A. A misconfigured application, server, infrastructure management set up can exp
     * [Mandatory Access Control](#mac)  
     * [Discretionary Access Conrol](#dac)  
     * [Role-Based Access Control](#rbac)   
-    * [Attribute-Based Access Control](#abac)  
+    * [Attribute-Based Access Control](#abac)
+    * [Context-Based Access Control](#cbac)   
     
 
 ## MAC   
@@ -33,6 +34,11 @@ e.g.
 
 e.g. 
 
+
+## CBAC    
+Context-Based Access Control brings dynamic features to create rules to allow access to resources or workflows or pages.    
+
+e.g. Let say, a role does not require (or should not have) access to a workflow or page all the time. However, based on specific custom rules when a timer expires or threshold is breached, now one role gets access to the workflow or page to take action.    
 
 ## Access Control and Permissions   
 
